@@ -1,5 +1,6 @@
 import tkinter as tk
 from transformers import pipeline
+from tkinter import font
 
 # Configuración inicial del pipeline de traducción
 pipe = pipeline("translation", model="Helsinki-NLP/opus-mt-en-es", device=0)  # Usando CPU
@@ -15,8 +16,10 @@ def procesar_y_traducir():
 root = tk.Tk()
 root.title("Traductor de texto")
 
+fuente = font.Font(family="Helvetica", size=15) 
+
 # Widget de entrada de texto
-entrada_texto = tk.Text(root, height=10, width=50)
+entrada_texto = tk.Text(root, height=15, width=100, font=fuente)
 entrada_texto.pack()
 
 # Botón para procesar el texto
@@ -24,7 +27,7 @@ boton = tk.Button(root, text="Traducir", command=procesar_y_traducir)
 boton.pack()
 
 # Widget de salida de texto, similar a la entrada
-salida_texto = tk.Text(root, height=10, width=50)
+salida_texto = tk.Text(root, height=15, width=100, font= fuente)
 salida_texto.pack()
 
 # Iniciar la interfaz gráfica
