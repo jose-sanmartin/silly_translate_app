@@ -11,5 +11,7 @@ La ventaja de este traductor es que utiliza un entorno local con inteligencia ar
 
 Para instalar esta aplicación puedes clonar directamente el repositorio o descargar el zip. Si decides lo segundo, al descomprimir debes ejecutar el archivo .bat llamado instalador que instalará todas las dependencias necesarias, además para facilitar la ejecución posterior del programa te recomiendo hacer un acceso directo del archivo silly_translator.vbs que ejecuta el script.
 
+El peso total de la aplicación es de 5gb, debido principalmente al modelo Helsinki.
+
 <img src="http://drive.google.com/uc?export=view&id=15jU8STWwR_bZM73kUh7FKXwYlDW63D11" alt="Figura de ejemplo" width="750"/>
 
