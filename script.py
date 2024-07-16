@@ -10,7 +10,7 @@ pipe = pipeline('translation', model='Helsinki-NLP/opus-mt-en-es', device=-1) #p
 def procesar_y_traducir():
     texto = entrada_texto.get('1.0', 'end-1c')
     texto_modificado = texto.replace('\n', ' ') 
-    texto_modificado = texto.replace('-', ' ') #puedes modificar eliminando esta linea por si tienes peores rendimientos
+    texto_modificado = texto.replace('-', '') #puedes modificar eliminando esta linea por si tienes peores rendimientos
     resultado = pipe(texto_modificado) 
     salida_texto.delete('1.0', 'end')
     salida_texto.insert('1.0', resultado[0]['translation_text']) 
