@@ -8,7 +8,7 @@ where python >nul 2>nul || (
 echo Clonando repositorio...
 git clone https://github.com/jose-sanmartin/silly_translate_app.git
 
-cd silly_translate_app-main
+cd silly_translate_app
 echo Instalando requerimientos...
 pip install -r requirements.txt
 
