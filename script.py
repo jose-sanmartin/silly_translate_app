@@ -15,6 +15,8 @@ root = tk.Tk()
 
 root.title("Silly translator by JLSM")
 
+root.configure(background='black')
+
 fuente = font.Font(family="Roboto", size=15) 
 
 entrada_texto = tk.Text(root, height=15, width=100, font=fuente)
