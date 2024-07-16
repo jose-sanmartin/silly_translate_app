@@ -11,6 +11,5 @@ La ventaja de este traductor es que utiliza un entorno local con inteligencia ar
 
 Para instalar esta aplicación puedes clonar directamente el repositorio o descargar el zip. Si decides lo segundo, al descomprimir debes ejecutar el archivo .bat llamado instalador que instalará todas las dependencias necesarias, además para facilitar la ejecución posterior del programa te recomiendo hacer un acceso directo del archivo silly_translator.vbs que ejecuta el script.
 
-![Ejemplo](drive.google.com/uc?export=view&id=15jU8STWwR_bZM73kUh7FKXwYlDW63D11)
+<img src="http://drive.google.com/uc?export=view&id=15jU8STWwR_bZM73kUh7FKXwYlDW63D11" alt="Figura de ejemplo" width="750"/>
 
-<img src="drive.google.com/uc?export=view&id=15jU8STWwR_bZM73kUh7FKXwYlDW63D11" alt="Diagrama de flujo" width="500"/>
