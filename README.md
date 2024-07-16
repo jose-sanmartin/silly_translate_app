@@ -1,4 +1,4 @@
-**Silly Translate App: Una aplicación sencilla para traducir texto copiado y pegado**
+**Silly Translate App: Una aplicación sencilla para traducir texto copy-paste**
 
 Es común encontrar dificultades al traducir texto del inglés al español directamente con copy-paste desde un pdf o archivo de texto. En mi experiencia, se presentan dos problemas principales:
 
