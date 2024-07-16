@@ -13,9 +13,9 @@ def procesar_y_traducir():
 
 root = tk.Tk()
 
-root.title("Traductor de texto")
+root.title("Silly translator by JLSM")
 
-fuente = font.Font(family="Helvetica", size=15) 
+fuente = font.Font(family="Roboto", size=12) 
 
 entrada_texto = tk.Text(root, height=15, width=100, font=fuente)
 
