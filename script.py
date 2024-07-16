@@ -3,6 +3,7 @@ from transformers import pipeline
 from tkinter import font
 from tkinter import ttk
 from tkinter import PhotoImage
+import sacremoses
 
 pipe = pipeline('translation', model='Helsinki-NLP/opus-mt-en-es', device=-1) #puedes cambiar a 0 si tienes cuda y torch
 
