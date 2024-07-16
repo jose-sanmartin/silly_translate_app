@@ -1,6 +1,6 @@
 **Silly Translate App: Una aplicación sencilla para traducir texto copiado y pegado**
 
-Es común encontrar dificultades al traducir texto directamente del inglés al español. En mi experiencia, se presentan dos problemas principales:
+Es común encontrar dificultades al traducir texto del inglés al español directamente desde un pdf o archivo de texto. En mi experiencia, se presentan dos problemas principales:
 
 1. Los saltos de página en archivos PDF que incrustan texto línea por línea, dificultando la traducción.
 2. Las palabras divididas con guiones ('-') que generalmente no son interpretadas correctamente por los traductores automáticos.
