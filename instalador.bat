@@ -14,5 +14,5 @@ echo Instalando requerimientos...
 pip install -r requirements.txt
 
 echo Instalación completa. Ejecutando la aplicación...
-silly_translator.vbs
+cscript silly_translator.vbs
 pause
